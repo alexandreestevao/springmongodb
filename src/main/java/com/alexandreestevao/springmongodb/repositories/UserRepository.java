@@ -7,5 +7,5 @@ import com.alexandreestevao.springmongodb.domain.User;
 
 @Repository
 public interface UserRepository extends MongoRepository<User, String>{
-
+	
 }
