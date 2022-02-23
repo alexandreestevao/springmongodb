@@ -7,5 +7,9 @@ import com.alexandreestevao.springmongodb.domain.User;
 
 @Repository
 public interface UserRepository extends MongoRepository<User, String>{
+
+	//User save(Optional<User> newObj);
+	
+	
 	
 }
